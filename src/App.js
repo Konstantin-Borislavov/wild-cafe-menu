@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import { Toggle } from './components/Toggle';
+import { MorningBoosters } from './components/MorningBoosters';
+import { SharetoCare } from './components/ShareToCare';
+import { GutInstinct } from './components/GutInstinct';
+import { LifeInTechnicolour } from './components/LifeInTechnicolour';
+import { Diversity } from './components/Diversity';
+import { Desserts } from './components/Desserts';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Toggle>
+        <MorningBoosters/>
+      </Toggle>
+
+      <Toggle>
+        <SharetoCare/>
+      </Toggle>
+
+      <Toggle>
+        <GutInstinct/>
+      </Toggle>
+       
+      <Toggle>
+        <LifeInTechnicolour/>
+      </Toggle>
+
+      <Toggle>
+        <Diversity/>
+      </Toggle>
+      
+      <Toggle>
+        <Desserts/>
+      </Toggle>
     </div>
   );
 }
