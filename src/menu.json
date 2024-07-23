@@ -1,0 +1,141 @@
+{
+    "menu": {
+      "Morning-Boosters": [
+        {
+          "titulo": "Panqueques con Frutas",
+          "imagen": "/home/kosio/Programacion/wild-cafe-menu/src/Images/Avocado_Topping-8_1_.jpg",
+          "descripcion": "Deliciosos panqueques servidos con frutas frescas y miel.",
+          "ingredientes": [
+            "Harina",
+            "Leche",
+            "Huevos",
+            "Frutas variadas",
+            "Miel"
+          ]
+        }
+      ],
+      "Share-To-Care": [
+        {
+          "titulo": "Bruschetta",
+          "imagen": "https://example.com/images/bruschetta.jpg",
+          "descripcion": "Pan tostado con una mezcla de tomate, albahaca y ajo.",
+          "ingredientes": [
+            "Pan baguette",
+            "Tomate",
+            "Albahaca",
+            "Ajo",
+            "Aceite de oliva"
+          ]
+        },
+        {
+          "titulo": "Calamares Fritos",
+          "imagen": "https://example.com/images/calamares.jpg",
+          "descripcion": "Calamares crujientes servidos con salsa tártara.",
+          "ingredientes": [
+            "Calamares",
+            "Harina",
+            "Huevo",
+            "Aceite para freír",
+            "Salsa tártara"
+          ]
+        }
+      ],
+      "Gut-Instinct": [
+        {
+          "titulo": "Pollo a la Parrilla",
+          "imagen": "https://example.com/images/pollo_parrilla.jpg",
+          "descripcion": "Pechuga de pollo marinada y asada a la parrilla, servida con verduras.",
+          "ingredientes": [
+            "Pechuga de pollo",
+            "Ajo",
+            "Perejil",
+            "Aceite de oliva",
+            "Verduras mixtas"
+          ]
+        },
+        {
+          "titulo": "Pasta Carbonara",
+          "imagen": "https://example.com/images/pasta_carbonara.jpg",
+          "descripcion": "Pasta al dente con una cremosa salsa de queso, panceta y huevo.",
+          "ingredientes": [
+            "Pasta",
+            "Panceta",
+            "Queso parmesano",
+            "Huevo",
+            "Crema de leche"
+          ]
+        }
+      ],
+      "Life-In-Technicolour": [
+        {
+          "titulo": "Pollo a la Parrilla",
+          "imagen": "https://example.com/images/pollo_parrilla.jpg",
+          "descripcion": "Pechuga de pollo marinada y asada a la parrilla, servida con verduras.",
+          "ingredientes": [
+            "Pechuga de pollo",
+            "Ajo",
+            "Perejil",
+            "Aceite de oliva",
+            "Verduras mixtas"
+          ]
+        },
+        {
+          "titulo": "Pasta Carbonara",
+          "imagen": "https://example.com/images/pasta_carbonara.jpg",
+          "descripcion": "Pasta al dente con una cremosa salsa de queso, panceta y huevo.",
+          "ingredientes": [
+            "Pasta",
+            "Panceta",
+            "Queso parmesano",
+            "Huevo",
+            "Crema de leche"
+          ]
+        }
+      ],
+      "Diversity": [
+        {
+          "titulo": "Tiramisú",
+          "imagen": "https://example.com/images/tiramisu.jpg",
+          "descripcion": "Clásico postre italiano con capas de mascarpone, café y cacao.",
+          "ingredientes": [
+            "Queso mascarpone",
+            "Café",
+            "Huevos",
+            "Azúcar",
+            "Cacao en polvo"
+          ]
+        },
+        {
+          "titulo": "Helado de Vainilla",
+          "imagen": "https://example.com/images/helado_vainilla.jpg",
+          "descripcion": "Helado cremoso de vainilla, perfecto para cualquier ocasión.",
+          "ingredientes": [
+            "Leche",
+            "Crema",
+            "Azúcar",
+            "Vainilla"
+          ]
+        }
+      ],
+      "Desserts": [
+        {
+          "titulo": "Jugo de Naranja Natural",
+          "imagen": "https://example.com/images/jugo_naranja.jpg",
+          "descripcion": "Jugo de naranja recién exprimido, sin azúcares añadidos.",
+          "ingredientes": [
+            "Naranjas"
+          ]
+        },
+        {
+          "titulo": "Café Espresso",
+          "imagen": "https://example.com/images/cafe_espresso.jpg",
+          "descripcion": "Fuerte y aromático café espresso, preparado al momento.",
+          "ingredientes": [
+            "Café molido",
+            "Agua"
+          ]
+        }
+      ]
+    }
+  }
+  
