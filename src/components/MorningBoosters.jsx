@@ -11,10 +11,14 @@ export const MorningBoosters = () => {
 
     return (
         <div>
-            {morningBoosters.map((item, index) => (
+            {morningBoosters && morningBoosters.map((item, index) => (
                 <div key={index}>
-                    <h2>{item.titulo}</h2>
-                    <img src={item.imagen} alt="" />
+                    <h2>{item.title}</h2>
+
+                    <div>
+                    <img src={item.image} alt= {item.title} />
+                    </div>
+
                 </div>
             ))}
         </div>

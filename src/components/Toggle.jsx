@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 
 
-export const Toggle = ({children}) => {
+export const Toggle = ({title, children}) => {
 
 const [modal, setModal] = useState(false);
  
@@ -12,9 +12,9 @@ const toggleModal =  () => {
 
   return (
     <div>
-    <button  className='btn-modal' onClick={toggleModal}>
-        Open
-    </button>
+    <h1  className='btn-modal' onClick={toggleModal}>
+        {title}
+    </h1>
 
     {modal && (
     <div className='modal'>
@@ -22,9 +22,7 @@ const toggleModal =  () => {
         <div className='modal-content'>
             {children}
             <h2>Hello World</h2>
-            <button  className='btn-modal' onClick={toggleModal}>
-             Close
-            </button>
+            <div className='btn-modal' onClick={toggleModal}></div>
         </div>
     </div>
     )}

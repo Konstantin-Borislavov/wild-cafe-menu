@@ -1,141 +1,142 @@
 {
-    "menu": {
+  "menu": {
       "Morning-Boosters": [
-        {
-          "titulo": "Panqueques con Frutas",
-          "imagen": "/home/kosio/Programacion/wild-cafe-menu/src/Images/Avocado_Topping-8_1_.jpg",
-          "descripcion": "Deliciosos panqueques servidos con frutas frescas y miel.",
-          "ingredientes": [
-            "Harina",
-            "Leche",
-            "Huevos",
-            "Frutas variadas",
-            "Miel"
-          ]
-        }
+          {
+              "title": "Pancakes with Fruits",
+              "image": "images/wild-stack.jpg",
+              "description": "Delicious pancakes served with fresh fruits and honey.",
+              "ingredients": [
+                  "Flour",
+                  "Milk",
+                  "Eggs",
+                  "Variety of fruits",
+                  "Honey"
+              ]
+          }
       ],
       "Share-To-Care": [
-        {
-          "titulo": "Bruschetta",
-          "imagen": "https://example.com/images/bruschetta.jpg",
-          "descripcion": "Pan tostado con una mezcla de tomate, albahaca y ajo.",
-          "ingredientes": [
-            "Pan baguette",
-            "Tomate",
-            "Albahaca",
-            "Ajo",
-            "Aceite de oliva"
-          ]
-        },
-        {
-          "titulo": "Calamares Fritos",
-          "imagen": "https://example.com/images/calamares.jpg",
-          "descripcion": "Calamares crujientes servidos con salsa tártara.",
-          "ingredientes": [
-            "Calamares",
-            "Harina",
-            "Huevo",
-            "Aceite para freír",
-            "Salsa tártara"
-          ]
-        }
+          {
+              "title": "Bruschetta",
+              "image": "https://example.com/images/bruschetta.jpg",
+              "description": "Toasted bread with a mix of tomato, basil, and garlic.",
+              "ingredients": [
+                  "Baguette bread",
+                  "Tomato",
+                  "Basil",
+                  "Garlic",
+                  "Olive oil"
+              ]
+          },
+          {
+              "title": "Fried Calamari",
+              "image": "https://example.com/images/calamares.jpg",
+              "description": "Crispy calamari served with tartar sauce.",
+              "ingredients": [
+                  "Calamari",
+                  "Flour",
+                  "Egg",
+                  "Oil for frying",
+                  "Tartar sauce"
+              ]
+          }
       ],
       "Gut-Instinct": [
-        {
-          "titulo": "Pollo a la Parrilla",
-          "imagen": "https://example.com/images/pollo_parrilla.jpg",
-          "descripcion": "Pechuga de pollo marinada y asada a la parrilla, servida con verduras.",
-          "ingredientes": [
-            "Pechuga de pollo",
-            "Ajo",
-            "Perejil",
-            "Aceite de oliva",
-            "Verduras mixtas"
-          ]
-        },
-        {
-          "titulo": "Pasta Carbonara",
-          "imagen": "https://example.com/images/pasta_carbonara.jpg",
-          "descripcion": "Pasta al dente con una cremosa salsa de queso, panceta y huevo.",
-          "ingredientes": [
-            "Pasta",
-            "Panceta",
-            "Queso parmesano",
-            "Huevo",
-            "Crema de leche"
-          ]
-        }
+          {
+              "title": "Grilled Chicken",
+              "image": "https://example.com/images/pollo_parrilla.jpg",
+              "description": "Marinated and grilled chicken breast served with vegetables.",
+              "ingredients": [
+                  "Chicken breast",
+                  "Garlic",
+                  "Parsley",
+                  "Olive oil",
+                  "Mixed vegetables"
+              ]
+          },
+          {
+              "title": "Pasta Carbonara",
+              "image": "https://example.com/images/pasta_carbonara.jpg",
+              "description": "Al dente pasta with a creamy cheese sauce, pancetta, and egg.",
+              "ingredients": [
+                  "Pasta",
+                  "Pancetta",
+                  "Parmesan cheese",
+                  "Egg",
+                  "Heavy cream"
+              ]
+          }
       ],
       "Life-In-Technicolour": [
-        {
-          "titulo": "Pollo a la Parrilla",
-          "imagen": "https://example.com/images/pollo_parrilla.jpg",
-          "descripcion": "Pechuga de pollo marinada y asada a la parrilla, servida con verduras.",
-          "ingredientes": [
-            "Pechuga de pollo",
-            "Ajo",
-            "Perejil",
-            "Aceite de oliva",
-            "Verduras mixtas"
-          ]
-        },
-        {
-          "titulo": "Pasta Carbonara",
-          "imagen": "https://example.com/images/pasta_carbonara.jpg",
-          "descripcion": "Pasta al dente con una cremosa salsa de queso, panceta y huevo.",
-          "ingredientes": [
-            "Pasta",
-            "Panceta",
-            "Queso parmesano",
-            "Huevo",
-            "Crema de leche"
-          ]
-        }
+          {
+              "title": "Grilled Chicken",
+              "image": "https://example.com/images/pollo_parrilla.jpg",
+              "description": "Marinated and grilled chicken breast served with vegetables.",
+              "ingredients": [
+                  "Chicken breast",
+                  "Garlic",
+                  "Parsley",
+                  "Olive oil",
+                  "Mixed vegetables"
+              ]
+          },
+          {
+              "title": "Pasta Carbonara",
+              "image": "https://example.com/images/pasta_carbonara.jpg",
+              "description": "Al dente pasta with a creamy cheese sauce, pancetta, and egg.",
+              "ingredients": [
+                  "Pasta",
+                  "Pancetta",
+                  "Parmesan cheese",
+                  "Egg",
+                  "Heavy cream"
+              ]
+          }
       ],
       "Diversity": [
-        {
-          "titulo": "Tiramisú",
-          "imagen": "https://example.com/images/tiramisu.jpg",
-          "descripcion": "Clásico postre italiano con capas de mascarpone, café y cacao.",
-          "ingredientes": [
-            "Queso mascarpone",
-            "Café",
-            "Huevos",
-            "Azúcar",
-            "Cacao en polvo"
-          ]
-        },
-        {
-          "titulo": "Helado de Vainilla",
-          "imagen": "https://example.com/images/helado_vainilla.jpg",
-          "descripcion": "Helado cremoso de vainilla, perfecto para cualquier ocasión.",
-          "ingredientes": [
-            "Leche",
-            "Crema",
-            "Azúcar",
-            "Vainilla"
-          ]
-        }
+          {
+              "title": "Tiramisu",
+              "image": "https://example.com/images/tiramisu.jpg",
+              "description": "Classic Italian dessert with layers of mascarpone, coffee, and cocoa.",
+              "ingredients": [
+                  "Mascarpone cheese",
+                  "Coffee",
+                  "Eggs",
+                  "Sugar",
+                  "Cocoa powder"
+              ]
+          },
+          {
+              "title": "Vanilla Ice Cream",
+              "image": "https://example.com/images/helado_vainilla.jpg",
+              "description": "Creamy vanilla ice cream, perfect for any occasion.",
+              "ingredients": [
+                  "Milk",
+                  "Cream",
+                  "Sugar",
+                  "Vanilla"
+              ]
+          }
       ],
       "Desserts": [
-        {
-          "titulo": "Jugo de Naranja Natural",
-          "imagen": "https://example.com/images/jugo_naranja.jpg",
-          "descripcion": "Jugo de naranja recién exprimido, sin azúcares añadidos.",
-          "ingredientes": [
-            "Naranjas"
-          ]
-        },
-        {
-          "titulo": "Café Espresso",
-          "imagen": "https://example.com/images/cafe_espresso.jpg",
-          "descripcion": "Fuerte y aromático café espresso, preparado al momento.",
-          "ingredientes": [
-            "Café molido",
-            "Agua"
-          ]
-        }
+          {
+              "title": "Fresh Orange Juice",
+              "image": "https://example.com/images/jugo_naranja.jpg",
+              "description": "Freshly squeezed orange juice, with no added sugars.",
+              "ingredients": [
+                  "Oranges"
+              ]
+          },
+          {
+              "title": "Espresso Coffee",
+              "image": "https://example.com/images/cafe_espresso.jpg",
+              "description": "Strong and aromatic espresso coffee, prepared on the spot.",
+              "ingredients": [
+                  "Ground coffee",
+                  "Water"
+              ]
+          }
       ]
-    }
   }
+}
+
   
