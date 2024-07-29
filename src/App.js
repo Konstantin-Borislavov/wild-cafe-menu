@@ -9,28 +9,28 @@ import { Desserts } from './components/Desserts';
 
 function App() {
   return (
-    <div>
-      <Toggle>
+    <div className='App'>
+      <Toggle title = {'Morning Boosters'}>
         <MorningBoosters/>
       </Toggle>
 
-      <Toggle>
+      <Toggle title = {'Share to Care'}>
         <SharetoCare/>
       </Toggle>
 
-      <Toggle>
+      <Toggle title = {'Gut Instinct'}>
         <GutInstinct/>
       </Toggle>
        
-      <Toggle>
+      <Toggle title = {'Life in Techcolour'}>
         <LifeInTechnicolour/>
       </Toggle>
 
-      <Toggle>
+      <Toggle title = {'Diversity'}>
         <Diversity/>
       </Toggle>
       
-      <Toggle>
+      <Toggle title = {'Desserts'}>
         <Desserts/>
       </Toggle>
     </div>
