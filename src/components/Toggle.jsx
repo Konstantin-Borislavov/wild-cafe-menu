@@ -21,7 +21,6 @@ const toggleModal =  () => {
         <div className='overlay'></div>
         <div className='modal-content'>
             {children}
-            <h2>Hello World</h2>
             <div className='btn-modal' onClick={toggleModal}></div>
         </div>
     </div>

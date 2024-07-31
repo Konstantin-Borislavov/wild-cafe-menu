@@ -2,9 +2,11 @@
   "menu": {
       "Morning-Boosters": [
           {
-              "title": "Pancakes with Fruits",
+              "title": "Wild Stack",
+              "price": "10,10",
               "image": "images/wild-stack.jpg",
-              "description": "Delicious pancakes served with fresh fruits and honey.",
+              "descriptionEs": "Pancakes sin gluten con banana, frutos rojos y sirope de agave",
+              "descriptionEn": "Gluten-free pancakes served with bananas, berries & agave syrup.",
               "ingredients": [
                   "Flour",
                   "Milk",
