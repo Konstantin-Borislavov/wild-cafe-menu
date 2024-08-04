@@ -10,12 +10,20 @@ export const Desserts = () => {
     }, []);
 
     return (
-        <div>
-            {desserts.map((item, index) => (
-                <div key={index}>
-                    <h2>{item.titulo}</h2>
+        <div className='desserts'>
+        {desserts && desserts.map((item, index) => (
+            <div key={index}>
+                <h2>{item.title}</h2>
+
+                <div>
+                <img src={item.image} alt= {item.title} />
                 </div>
-            ))}
-        </div>
+
+                <p>{item.descriptionEs}</p>
+                <i>{item.descriptionEn}</i>
+
+            </div>
+        ))}
+    </div>
     );
 };
