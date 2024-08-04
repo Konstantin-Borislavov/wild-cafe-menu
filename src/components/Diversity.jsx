@@ -10,12 +10,20 @@ export const Diversity = () => {
     }, []);
 
     return (
-        <div>
-            {diversity.map((item, index) => (
-                <div key={index}>
-                    <h2>{item.titulo}</h2>
+        <div className='diversity'>
+        {diversity && diversity.map((item, index) => (
+            <div key={index}>
+                <h2>{item.title}</h2>
+
+                <div>
+                <img src={item.image} alt= {item.title} />
                 </div>
-            ))}
-        </div>
+
+                <p>{item.descriptionEs}</p>
+                <i>{item.descriptionEn}</i>
+
+            </div>
+        ))}
+    </div>
     );
 };

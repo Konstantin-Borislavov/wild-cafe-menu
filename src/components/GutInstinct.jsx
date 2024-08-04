@@ -10,12 +10,20 @@ export const GutInstinct = () => {
     }, []);
 
     return (
-        <div>
-            {gutInstinct.map((item, index) => (
-                <div key={index}>
-                    <h2>{item.titulo}</h2>
+        <div className='gut-instinct'>
+        {gutInstinct && gutInstinct.map((item, index) => (
+            <div key={index}>
+                <h2>{item.title}</h2>
+
+                <div>
+                <img src={item.image} alt= {item.title} />
                 </div>
-            ))}
-        </div>
+
+                <p>{item.descriptionEs}</p>
+                <i>{item.descriptionEn}</i>
+
+            </div>
+        ))}
+    </div>
     );
 };

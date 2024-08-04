@@ -10,10 +10,18 @@ export const LifeInTechnicolour = () => {
     }, []);
 
     return (
-        <div>
-            {lifeInTechnicolour.map((item, index) => (
+        <div className='life-in-techicolour'>
+            {lifeInTechnicolour && lifeInTechnicolour.map((item, index) => (
                 <div key={index}>
-                    <h2>{item.titulo}</h2>
+                    <h2>{item.title}</h2>
+
+                    <div>
+                    <img src={item.image} alt= {item.title} />
+                    </div>
+
+                    <p>{item.descriptionEs}</p>
+                    <i>{item.descriptionEn}</i>
+
                 </div>
             ))}
         </div>
