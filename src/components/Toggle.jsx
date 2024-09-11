@@ -1,30 +1,39 @@
-import React from 'react'
-import { useState } from 'react';
-import '../css/toggle.css'
+import React, { useState, useRef, useEffect } from 'react';
+import '../css/toggle.css';
 
 export const Toggle = ({ title, children }) => {
   const [modal, setModal] = useState(false);
+  const [height, setHeight] = useState(0);
+  const modalContentRef = useRef(null);
 
   const toggleModal = () => {
     setModal(!modal);
   };
 
+  useEffect(() => {
+    if (modal && modalContentRef.current) {
+      const contentHeight = modalContentRef.current.scrollHeight;
+      setHeight(contentHeight);
+    }
+  }, [modal]);
+
+  useEffect(() => {
+    if (modalContentRef.current) {
+      modalContentRef.current.style.setProperty('--height', `${height}px`);
+    }
+  }, [height]);
+
   return (
     <div>
       <h1 className='btn-modal' onClick={toggleModal}>
-        Open
+        {title}
       </h1>
 
-      <div className={`modal-content ${modal ? 'open' : 'close'}`}>
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quos magnam eaque, cum tempore rem, veritatis hic harum provident eligendi numquam perferendis quibusdam quam error voluptas iusto dicta nisi magni?</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quos magnam eaque, cum tempore rem, veritatis hic harum provident eligendi numquam perferendis quibusdam quam error voluptas iusto dicta nisi magni?</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quos magnam eaque, cum tempore rem, veritatis hic harum provident eligendi numquam perferendis quibusdam quam error voluptas iusto dicta nisi magni?</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quos magnam eaque, cum tempore rem, veritatis hic harum provident eligendi numquam perferendis quibusdam quam error voluptas iusto dicta nisi magni?</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quos magnam eaque, cum tempore rem, veritatis hic harum provident eligendi numquam perferendis quibusdam quam error voluptas iusto dicta nisi magni?</p>
-        </div>
+      <div ref={modalContentRef} className={`modal-content ${modal ? 'open' : 'close'}`}>
+        {children}
         <button onClick={toggleModal}>Close</button>
       </div>
     </div>
   );
 };
+
