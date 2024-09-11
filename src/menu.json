@@ -1,0 +1,357 @@
+{
+  "menu": {
+    "Morning-Boosters-sweet": [
+      {
+        "title": "WILD STACK",
+        "price": "10,10",
+        "image": "images/wild-stack.webp",
+        "descriptionEs": "Pancakes sin gluten con banana, frutos rojos y sirope de agave",
+        "descriptionEn": "Gluten-free pancakes served with bananas, berries & agave syrup.",
+        "vegan/gluten": "gluten-free"
+      },
+      {
+        "title": "AROMATIC VEGAN JAR",
+        "price": "12,30",
+        "image": "images/aromatic-vegan-jar.webp",
+        "descriptionEs": "Yogur de coco, granola casera, compota de fresas, bananas & frutos del bosque.",
+        "descriptionEn": "Coconut yogurt, homemade granola, strawberry compote, bananas & fresh berries.",
+        "vegan/gluten": "vegan"
+      },
+      {
+        "title": "WONDERFRUIT SMOOTHIE BOWL",
+        "price": "12,70",
+        "image": "images/wonderfruit-smoothie-bowl.webp",
+        "descriptionEs": "Pulpa de açai ecológica, mezclada con banana, frutos rojos congelados y leche de coco, coronado con granola casera sin gluten, frutos rojos, banana, semillas de cáñamos y chips de coco.",
+        "descriptionEn": "Antioxidant-loaded açai pulp blended with banana, frozen blueberries & coconut milk, topped with homemade gluten-free granola, fresh berries, banana, hemp seeds & coconut chips.",
+        "vegan/gluten": "gluten-free"
+      },
+      {
+        "title": "STAY GOLDEN",
+        "price": "12,80",
+        "image": "images/stay-golden.webp",
+        "descriptionEs": "Mango, piña, papaya y banana congelados mezclado con leche de coco y mezcla de especias antiinflamatorias, coronado con granola casera sin gluten, kiwi, frutos rojos, coco y fruta de la pasión.",
+        "descriptionEn": "Frozen mango, pineapple, papaya & banana blended with coconut milk & anti-inflammatory spice mix, topped with homemade gluten-free granola, kiwi, fresh berries, coconut chips & passion fruit.",
+        "vegan/gluten": "gluten-free"
+      },
+      {
+        "title": "SPICED SEASONAL PORRIDGE",
+        "price": "12,30",
+        "image": "images/spiced-seasonal-porridge.webp",
+        "descriptionEs": "Copos de avena cocidos lentamente, servido con nuestro “caramelo” de tahini, fruta de temporada, granola casera & nibs de cacao.",
+        "descriptionEn": "Creamy slow cooked oats with our tahini 'caramel', seasonal fruit, homemade granola & cacao nibs.",
+        "vegan/gluten": "vegan"
+      }
+    ],
+    "Morning-Boosters-salt": [
+      {
+        "title": "BREAKFAST DATE",
+        "price": "10,90",
+        "image": "images/breakfast-date.webp",
+        "descriptionEs": "Tosta de pan de masa madre con queso crema de cabra, dátiles medjoul, miel de temporada, mix de avellanas, y polen.",
+        "descriptionEn": "Goat cheese and medjool dates on toasted sourdough drizzled with honey & topped with toasted hazelnuts & pollen.",
+        "vegan/gluten": "gluten"
+      },
+      {
+        "title": "AVO LOVER",
+        "price": "11,90",
+        "image": "images/avo-lover.webp",
+        "descriptionEs": "Tosta de pan de masa madre con aguacate, tomates cherry al horno, pesto de rúcula y mix de semillas.",
+        "descriptionEn": "Avocado, roasted cherry tomatoes & radish on toasted sourdough drizzled with argula pesto & mixed seeds.",
+        "vegan/gluten": "vegan"
+      },
+      {
+        "title": "SALMON SUNRISE",
+        "price": "12,80",
+        "image": "images/salmon-sunrise.webp",
+        "descriptionEs": "Tosta de pan de masa madre con salmón ahumado, queso crema, pepino, eneldo fresco y vinagreta de fruta de la pasión.",
+        "descriptionEn": "Smoked salmon on toasted sourdough with cream cheese, cucumber, fresh dill and passion fruit vinagrette.",
+        "vegan/gluten": "gluten"
+      },
+      {
+        "title": "WILDERNESS WAFFLE",
+        "price": "12,90",
+        "image": "images/wildreness-waffle.webp",
+        "descriptionEs": "Gofre de kimchi casero, aguacate y germinados con salsa veganesa y sweet chili de pera hechas en nuestra cocina.",
+        "descriptionEn": "Kimchi waffle with avocado & sprouts served with homemade vegan mayo & pear sweet chilli sauce.",
+        "vegan/gluten": "vegan"
+      },
+      {
+        "title": "TOFU BENEDICT",
+        "price": "12,60",
+        "image": "images/tofu-benedict.webp",
+        "descriptionEs": "Tofu ecológico a la plancha con salteado de setas, espinacas y ajo, sobre tosta de pan blanco y salsa holandesa vegana.",
+        "descriptionEn": "Organic grilled tofu on toasted white sourdough served with sautéed mushrooms, spinach & garlic with homemade vegan hollandaise sauce.",
+        "vegan/gluten": "vegan"
+      },
+      {
+        "title": "TRUFFLED TURKISH EGGS",
+        "price": "12,80",
+        "image": "images/truffled-turkish-eggs.webp",
+        "descriptionEs": "Huevos trufados pochados sobre yogur griego infusionado con ajo negro, aceite picante acompañado con tosta de semillas.",
+        "descriptionEn": "Truffled poached eggs served with black garlic infused greek yoghurt, chilli oil & toasted sourdough bread.",
+        "vegan/gluten": "gluten"
+      },
+      {
+        "title": "THE WILD BENEDICT",
+        "price": "12,60",
+        "image": "images/the-wild-benedict.webp",
+        "descriptionEs": "Huevos ecológicos pochados con salteado de setas, espinacas y ajo sobre tosta de pan de masa madre y salsa holandesa.",
+        "descriptionEn": "Organic poached eggs on toasted white sourdough served with sautéed mushrooms, spinach & garlic with hollandaise sauce.",
+        "vegan/gluten": "gluten"
+      }
+    ],
+    "Share-To-Care": [
+      {
+        "title": "Truffled Edamame",
+        "price": "10,20",
+        "image": "images/truffled-edamame.webp",
+        "descriptionEs": "Judías edamame salteadas con aceite de trufa, sal marina negra y sumac.",
+        "descriptionEn": "Edamame beans sautéed in truffle oil, sumac & black sea salt.",
+        "vegan/gluten": "vegan" 
+      },
+      {
+        "title": "Spicy Edamame",
+        "price": "11,40",
+        "image": "images/spicy-edamame.webp",
+        "descriptionEs": "Judías edamame salteadas con aceite de sésamo, shichimi togarashi y choclo desgranado.",
+        "descriptionEn": "Edamame beans sautéed in sesame oil, shichimi togarashi & shelled corn.",
+        "vegan/gluten": "vegan"
+      },
+      {
+        "title": "Latino Fries",
+        "price": "13,20",
+        "image": "images/latino-fries.webp",
+        "descriptionEs": "Bastones de yuca y boniato fritos con salsa “huancaína” vegana de ají amarillo y salsa de aguacate emulsionado con cilantro.",
+        "descriptionEn": "Yucca and sweet potato fries served with two homemade sauces, avocado & coriander and vegan Peruvian “huancaína” sauce.",
+        "vegan/gluten": "vegan"
+      },
+      {
+        "title": "Avocado Croquettes",
+        "price": "13,80",
+        "image": "images/avocado-croquettes.webp",
+        "descriptionEs": "Croquetas de aguacate rebozadas en panko con nuestra salsa 'sweet chili' de pera y eneldo.",
+        "descriptionEn": "Panko avocado croquettes served with homemade 'sweet chili' pear sauce & dill.",
+        "vegan/gluten": "vegan"
+      },
+      {
+        "title": "A-Maize-ing Ribs",
+        "price": "14,10",
+        "image": "images/a-maize-ing-ribs.webp",
+        "descriptionEs": "Costillas de maíz con salsa barbacoa de chipotle casera y raita de coco servida con 'farofa' crujiente de almendras y cilantro.",
+        "descriptionEn": "Sweet corn spare ribs with homemade chipotle barbecue sauce & coconut raita served with crispy almond 'farofa' & coriander."
+      },
+      {
+        "title": "Miso Roasted Aubergine",
+        "price": "14,60",
+        "image": "images/miso-roasted-aubergine.webp",
+        "descriptionEs": "Berenjena asada con salsa de miso blanco agridulce, yogur griego con aromas de limón, pistacho, almendra laminada y menta fresca.",
+        "descriptionEn": "Sweet & sour miso roasted aubergine served with greek yoghurt, lemon zest, pistachios, almonds & fresh mint."
+      },
+      {
+        "title": "Zesty Smoked Duck",
+        "price": "16,80",
+        "image": "images/zesty-smoked-duck.webp",
+        "descriptionEs": "Pato ahumado a las brasas de Tehuelche Grill (nuestro restaurante familiar) con brotes tiernos, puerro, mermelada casera de cítricos con salsa ponzu de naranja y limón.",
+        "descriptionEn": "Duck delicately smoked on Tehuelche Grill (Our family restaurant) served with sprouts & leek with homemade citrus jam, orange & lemon ponzu sauce."
+      }
+      
+    ],
+    "Gut-Instinct": [
+      {
+        "title": "MACROBIOTIC BOWL",
+        "price": "17,40",
+        "image": "images/macrobiotic-bowl.webp",
+        "descriptionEs": "Quínoa orgánica tricolor, hummus de remolacha, fideos de calabacín y zanahoria, boniato asado al horno con semillas de amapola, kimchi casero, aguacate a la plancha, hojas tiernas y mix de semillas con vinagreta de jengibre y limón.",
+        "descriptionEn": "Organic tricolour quinoa, beetroot hummus, courgette & carrot noodles, oven roasted sweet potato with poppy seeds, homemade kimchi, grilled avocado, baby leaf salad & mixed seeds, served with homemade ginger & lemon dressing.",
+        "vegan/gluten": "vegan"
+      },
+      {
+        "title": "EARTH, WIND & FALAFEL",
+        "price": "17,90",
+        "image": "images/earth-wind-and-falafel.webp",
+        "descriptionEs": "Falafel, kale, hinojo asado, tabulé de trigo sarraceno, tomates cherry, pepino, cebollas encurtidas y dukkah de pistacho servido con salsa tahini de hierbas aromáticas.",
+        "descriptionEn": "Falafel, kale, roasted fennel, buckwheat tabbouleh, cherry tomatoes, cucumber, pickled onions & pistachio dukkah served with an aromatic herbs tahini dressing.",
+        "vegan/gluten": "vegan gluten free"
+      },
+      {
+        "title": "WILD HARVEST BOWL",
+        "price": "17,60",
+        "image": "images/wild-harvest-bowl.webp",
+        "descriptionEs": "Kale, quínoa orgánica tricolor, tomates cherry, rabanitos, germinados, croutons de garbanzos, fresas, arándanos y “bacon” vegano de coco servido con salsa de miso tahini.",
+        "descriptionEn": "Kale, organic tricolour quinoa, cherry tomatoes, radish, sprouts, chickpea croutons, strawberries, blueberries & vegan coconut “bacon”, served with homemade tahini miso dressing.",
+        "vegan/gluten": "vegan"
+      },
+      {
+        "title": "TEMPEH-TATION BOWL",
+        "price": "17,60",
+        "image": "images/tempeh-tation-bowl.webp",
+        "descriptionEs": "Tempeh casero a la plancha, mix de coles, zanahoria, rabanito, pepino, judía mungo, tomates, espinacas, brócoli y edamame servido con salsa de cacahuete y tamarindo.",
+        "descriptionEn": "Grilled homemade tempeh, multi-colour cabbage, radish, mung bean sprouts, cucumber, carrots, spinach, broccoli & edamame with a peanut & tamarind dressing.",
+        "vegan/gluten": "vegan"
+      }
+    ],
+    "Life-In-Technicolour": [
+    {
+        "title": "LOADED SWEET POTATO",
+        "price": "17,40",
+        "image": "images/loaded-sweet-potato.webp",
+        "descriptionEs": "Boniato asado con quínoa orgánica tricolor, queso casero de anacardos activados, aguacate, pico de gallo y brotes tiernos.",
+        "descriptionEn": "Roasted sweet potato served with organic tricolour quinoa, homemade activated cashew “cheese”, avocado, pico de gallo & tender sprouts.",
+        "vegan/gluten": "vegan"
+    },
+    {
+        "title": "POLENTA & CHIMI-BELOS",
+        "price": "18,90",
+        "image": "images/polenta.webp",
+        "descriptionEs": "Polenta cremosa de maíz y hierbas aromáticas, servida con portobellos macerados en chimichurri, hinojo fresco, eneldo, germinados de guisantes y ricota plant-based de almendra.",
+        "descriptionEn": "Creamy polenta and aromatic herbs, served with portobello mushrooms marinated in chimichurri, fresh fennel, dill, pea sprouts and plant-based almond ricotta.",
+        "vegan/gluten": "vegan"
+    },
+    {
+        "title": "CRISPY ARTICHOKE CAKES",
+        "price": "17,80",
+        "image": "images/crispy-artichoke-cakes.webp",
+        "descriptionEs": "Pasteles crujientes de alcachofa rebozados en panko con mayonesa vegana casera de sriracha, aguacate, micro ensalada de cebolla y brotes tiernos acompañada de boniatos fritos.",
+        "descriptionEn": "Panko fried artichoke cakes served with homemade vegan sriracha mayo, avocado, baby leaf salad, red onion and fried sweet potatoes.",
+        "vegan/gluten": "vegan"
+    },
+    {
+        "title": "RAINBOW ROLLS",
+        "price": "15,80",
+        "image": "images/rainbow-rolls.webp",
+        "descriptionEs": "Rollitos de papel de arroz rellenos de tofu orgánico y crudités con salsa casera de cacahuete, tamarindo y sriracha.",
+        "descriptionEn": "Rice paper rolls filled with organic tofu, raw vegetables, served with a homemade peanut, sriracha & tamarindo sauce.",
+        "vegan/gluten": "vegan, gluten free"
+    },
+    {
+        "title": "AREPA, THE WILD QUEEN",
+        "price": "18,20",
+        "image": "images/arepa-the-wild-queen.webp",
+        "descriptionEs": "Arepas de maíz rellenas de ensalada de atún plant-based, aguacate, col lombarda encurtida, veganesa de remolacha y salsa “guasacaca” venezolana.",
+        "descriptionEn": "Corn arepas stuffed with plant-based tuna salad, avocado, pickled red cabbage, beetroot vegan mayo and Venezuelan “guasacaca” sauce.",
+        "vegan/gluten": "vegan"
+    },
+    {
+        "title": "WILD RICE CURRY",
+        "price": "17,60",
+        "image": "images/wild-rice-curry.webp",
+        "descriptionEs": "Curry casero de tomate y coco con brócoli, okra, berenjena, espinacas, tofu orgánico, maíz baby y chips de coco, acompañado de arroz basmati integral.",
+        "descriptionEn": "Homemade tomato & coconut curry with broccoli, okra, aubergine, spinach, organic tofu, baby corn & coconut chips served with brown basmati rice.",
+        "vegan/gluten": "vegan"
+    },
+    {
+        "title": "BLACK BEANS & SHIITAKE TACOS",
+        "price": "16,80",
+        "image": "images/black-beans-and-shitake-tacos.webp",
+        "descriptionEs": "Tortillas de maíz caseras con frijoles negros, col morada, brotes tiernos, aguacate, setas shiitake y pico de gallo.",
+        "descriptionEn": "Homemade corn tortillas with Mexican-style black beans, red cabbage, baby leaf, avocado, shiitake mushrooms & pico de gallo.",
+        "vegan/gluten": "vegan"
+    },
+    {
+        "title": "THE WILDEST “VEGAN BURGER”",
+        "price": "17,40",
+        "image": "images/the-wildest-vegan-burger.webp",
+        "descriptionEs": "Setas ostra crujientes, ensalada de col, veganesa, lechuga orgánica y pepinillos, en un pan artesano bretzel, servida con patatas rejilla o ensalada.",
+        "descriptionEn": "Crispy oyster mushroom, red coleslaw, vegan mayo, organic lettuce & pickles on an artisan pretzel bun, served with French waffle fries or salad.",
+        "vegan/gluten": "vegan"
+    },
+    {
+        "title": "COLIFOREST",
+        "price": "18,40",
+        "image": "images/coliflorest.webp",
+        "descriptionEs": "Filete de coliflor asado, marinado en yogur de coco, jengibre fresco y cilantro, servido sobre un falso “cuscús” de brócoli tierno con pasas, cebolla asada y mix de avellanas y pistacho.",
+        "descriptionEn": "Roasted cauliflower steak marinated in coconut yoghurt, fresh ginger & coriander, served over mock tender broccoli “couscous” with raisins, grilled onion & hazelnut & pistachio mix.",
+        "vegan/gluten": "vegan"
+    }
+
+    ],
+    "Diversity": [
+      {
+        "title": "OVEN-BAKED SALMON",
+        "price": "26,80",
+        "image": "images/oven-baked-salmon.webp",
+        "descriptionEs": "Salmón al horno con quínoa ecológica tricolor, edamame, tomates asados, eneldo y brotes tiernos.",
+        "descriptionEn": "Oven-baked salmon, served with organic tricolour quinoa, roasted tomatoes, dill, edamame beans & baby leaf salad."
+      },
+      {
+        "title": "CHICKEN TINGA TACOS",
+        "price": "17,90",
+        "image": "images/chicken-tinga-tacos.webp",
+        "descriptionEs": "Tortillas de maíz con pollo asado estilo mexicano, yogur cremoso y cilantro servido con pico de gallo, brotes de rábano y lima.",
+        "descriptionEn": "Corn tortillas with roasted mexican-style chicken, creamy yoghurt & coriander, served with pico de gallo, radish sprouts & lime."
+      },
+      {
+        "title": "ANTICUCHOS & YUQUITA",
+        "price": "23,30",
+        "image": "images/anticuchos.webp",
+        "descriptionEs": "Brochetas de solomillo argentino marinadas en salsa “anticuchera”, servida con ensalada acevichada de cebolla y choclo peruano, acompañadas de yuca frita.",
+        "descriptionEn": "Argentine tenderloin marinated in “anticuchera” sauce served with peruvian corn, onion acevichada salad & fried yuca."
+      },
+      {
+        "title": "MOQUECA DO BAHIA",
+        "price": "24,20",
+        "image": "images/moqueca-do-bahia.webp",
+        "descriptionEs": "Cacerola de corvina y langostinos cocinada en sofrito de pimientos y cebolla morada con leche de coco, cilantro y sriracha, acompañada de arroz y “farofa” de almendras.",
+        "descriptionEn": "Corvina & prawns casserole cooked in red peppers & red onions with coconut milk, coriander & sriracha, served with rice & almond “farofa”."
+      },
+      {
+        "title": "PATACONES DE MECHADA",
+        "price": "21,90",
+        "image": "images/patacones-de-mechada.webp",
+        "descriptionEs": "Tostones de plátano macho frito con vacío mechado, aguacate, espinacas, cebolla morada, rábano encurtido y queso latino rallado, servidos con salsa de tomate, cilantro y jalapeño.",
+        "descriptionEn": "Fried plantain tostones with vacio, avocado, spinach, red onion, pickled radish and grated latino cheese, served with fresh tomato, coriander & jalapeño sauce."
+      },
+      {
+        "title": "ENTRECOT",
+        "price": "28,00",
+        "image": "images/entrecot.webp",
+        "descriptionEs": "Entrecot argentino premium 300 grs. acompañado de ensalada o patatas rejilla. Pide nuestra salsa chimichurri, hecha con nuestra receta familiar de Tehuelche Grill.",
+        "descriptionEn": "Premium argentine rib-eye 300 g served with salad or potato waffle fries. Ask for our famous Chimichurri sauce, made from the secret family recipe from Tehuelche Grill Argentino."
+      }
+    ],
+    "Desserts": [
+      {
+        "title": "BANOFFEE CHEESECAKE",
+        "price": "8,80",
+        "image": "images/banoffee-cheesecake.webp",
+        "descriptionEs": "Tarta de queso con banana al horno y vainilla, sobre una base de galleta crujiente cubierta con dulce de leche.",
+        "descriptionEn": "Creamy cheesecake backed with baked bananas & vanilla over a crunchy biscuit base topped with dulce de leche."
+    },
+    {
+        "title": "BROWNIE VEGANO",
+        "price": "9,80",
+        "image": "images/vegan-brownie.webp",
+        "descriptionEs": "Brownie vegano sin gluten con helado.",
+        "descriptionEn": "Vegan gluten free brownie with ice cream & nuts."
+    },
+    {
+        "title": "CARROT CAKE",
+        "price": "9,20",
+        "image": "images/carrot-cake.webp",
+        "descriptionEs": "Tarta de zanahoria casera con crema de queso y nueces.",
+        "descriptionEn": "Homemade carrot cake topped with cream cheese & nuts."
+    },
+    {
+        "title": "HALVA",
+        "price": "8,80",
+        "image": "images/halva.webp",
+        "descriptionEs": "Halva casera hecha con tahini, agua de rosas, caramelo de coco, pistachos y frambuesa.",
+        "descriptionEn": "Homemade halva made with tahini, rose water, coconut caramel, pistachios & raspberries."
+    },
+    {
+        "title": "LEMON TART",
+        "price": "8,80",
+        "image": "images/lemon-tart.webp",
+        "descriptionEs": "Tartaleta vegana rellena de crema de limón casera, nata vegana y frambuesas.",
+        "descriptionEn": "Vegan tartalet stuffed with homemade lemon cream, whipped cream & raspberries."
+    },
+    {
+        "title": "A-BOCADOS",
+        "price": "9,80",
+        "image": "images/a-bocados.webp",
+        "descriptionEs": "Alfajor de galletas de chocolate sin gluten, relleno de helado de aguacate, servido con lima rallada, 'sweet-camole' y frambuesas.",
+        "descriptionEn": "Gluten-free chocolate cookie alfajor, filled with avocado ice cream, served with grated lime, 'sweet-camole' & raspberries."
+    }
+    ]
+  }
+}

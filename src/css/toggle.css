@@ -1,0 +1,17 @@
+.modal-content {
+    overflow: hidden;
+    transition: height 0.3s ease, opacity 0.3s ease;
+    height: 0;
+    opacity: 0;
+  }
+  
+  .modal-content.open {
+    height: 400px; /* Ajusta la altura según lo que necesites */
+    opacity: 1;
+  }
+  
+  .modal-content.close {
+    height: 0;
+    opacity: 0;
+  }
+  
