@@ -40,6 +40,7 @@ function App() {
             it’s a happy one for everyone.
             Change is possible and necessary.
             We love, we believe, we are Wild.</i>
+            
 
           <br></br>
 
