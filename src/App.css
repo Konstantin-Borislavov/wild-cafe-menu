@@ -21,6 +21,10 @@
   cursor: pointer;
 }
 
+.food{
+  margin-top: 35px;
+}
+
 @media (max-width:480px){
   .content{
     max-width: 350px;
@@ -117,7 +121,7 @@
     max-width: 650px;
     min-height: 100vh;
     margin: 0 auto;
-    background-image: url('../public/fondo-menu-wild.png');
+    background-image: url('/fondo-menu-wild.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

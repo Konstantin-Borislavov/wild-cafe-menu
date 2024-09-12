@@ -1,4 +1,5 @@
 import './App.css'
+import './css/fonts.css'
 import { MorningBoosters } from './components/MorningBoosters'
 import { SharetoCare } from './components/ShareToCare'
 import { GutInstinct } from './components/GutInstinct'
