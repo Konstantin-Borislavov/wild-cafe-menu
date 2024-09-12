@@ -26,6 +26,11 @@
 }
 
 @media (max-width:480px){
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+
   .content{
     max-width: 350px;
     overflow: hidden;
@@ -61,6 +66,10 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+  body{
+    display: flex;
+    flex-direction: column;
+  }
 
   .content{
     max-width: 450px;
@@ -100,6 +109,10 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  body{
+    display: flex;
+    flex-direction: column;
+  }
 
   .content{
     max-width: 650px;
