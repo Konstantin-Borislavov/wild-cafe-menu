@@ -31,7 +31,13 @@ export const Toggle = ({ title, children }) => {
 
       <div ref={modalContentRef} className={`modal-content ${modal ? 'open' : 'close'}`}>
         {children}
-        <button onClick={toggleModal}>Close</button>
+        <button onClick={toggleModal} className='close-button'>
+          <img
+            src={'/close-button.png'}
+            alt="Cerrar"
+          />
+        </button>
+
       </div>
     </div>
   );
