@@ -32,6 +32,27 @@ export const MorningBoosters = () => {
 
                         </div>
                     ))}
+
+                    <div className='extras'>
+
+                        <h3>AÑADE TOPPINGS</h3>
+                        <h3><i>ADD TOPPINGS</i></h3>
+                        <br />
+                        <p>Dulce de leche&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.50€</p>
+                        <br />
+                        <p>Nutella vegana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.00€</p>
+                        <i>Vegan Nutella&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.00€</i>
+                        <br />
+                        <br />
+                        <p>Mantequilla de cacahuete&nbsp;&nbsp;&nbsp;&nbsp;2.00€</p>
+                        <i>Peanut butter&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.00€</i>
+                        <br />
+                        <br />
+                        <p>Mermelada de fresa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.00€</p>
+                        <i>Strawberry jam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.00€</i>
+                        <br /><br />
+
+                    </div>
                 </section>
 
                 <section className='morning-boosters'>
@@ -48,6 +69,23 @@ export const MorningBoosters = () => {
 
                         </div>
                     ))}
+
+                    <div className='extras'>
+
+                        <h3>EXTRAS</h3>
+                        <br />
+                        <p>Avocado · <i>Avocado&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.50€</i></p>
+                        <br />
+                        <p>Huevo pochado · <i>Poched egg &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.80€</i></p>
+                        <br />
+                        <p>Salmón ahumado · <i>Smoked salmon&nbsp;&nbsp;&nbsp;&nbsp;4.50€</i></p>
+                        <br />
+                        <p>Salmón marinado · <i>Poke salmon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.50€</i></p>
+                        <br />
+                        <p>Salmón salteado · <i>Sautéed salmon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.50€</i></p>
+                        <br />
+
+                    </div>
                 </section>
             </>
         </Toggle>
