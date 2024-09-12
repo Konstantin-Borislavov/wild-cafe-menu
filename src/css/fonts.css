@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'PlayfairDisplay-Italic-VariableFont_wght';
+    src: url('../assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'LibreBaskerville-Regular';
+    src: url('../assets/fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'LibreBaskerville-Italic';
+    src: url('../assets/fonts/LibreBaskerville-Italic.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'PlayfairDisplay-VariableFont_wght';
+    src: url('../assets/fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  
+  h1{
+    font-family: 'PlayfairDisplay-Italic-VariableFont_wght';
+  }
+  h3{
+    font-family: 'PlayfairDisplay-VariableFont_wght';
+  }
+  
+  .sections{
+     font-family: 'LibreBaskerville-Italic';
+  }
+  
+  p{
+    font-family: 'LibreBaskerville-Regular';
+  }
+  i{
+    font-family: 'LibreBaskerville-Italic';
+  }
