@@ -10,7 +10,7 @@ export const Diversity = () => {
     }, []);
 
     return (
-        <Toggle title={'DIVERSITY'}>
+        
             <section className='diversity'>
                 {diversity && diversity.map((item, index) => (
                     <div className='food' key={index}>
@@ -26,6 +26,6 @@ export const Diversity = () => {
                     </div>
                 ))}
             </section>
-        </Toggle>
+       
     );
 };

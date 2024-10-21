@@ -10,7 +10,7 @@ export const LifeInTechnicolour = () => {
     }, []);
 
     return (
-        <Toggle title={'LIFE IN TECHNICOLOUR'}>
+        
             <section className='life-in-techicolour'>
                 {lifeInTechnicolour && lifeInTechnicolour.map((item, index) => (
                     <div className='food' key={index}>
@@ -26,6 +26,6 @@ export const LifeInTechnicolour = () => {
                     </div>
                 ))}
             </section>
-        </Toggle>
+       
     );
 };

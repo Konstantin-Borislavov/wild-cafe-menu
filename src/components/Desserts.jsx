@@ -10,7 +10,7 @@ export const Desserts = () => {
     }, []);
 
     return (
-        <Toggle title={'HAPPINESS'}>
+        
             <section className='desserts'>
                 {desserts && desserts.map((item, index) => (
                     <div className='food' key={index}>
@@ -26,6 +26,6 @@ export const Desserts = () => {
                     </div>
                 ))}
             </section>
-        </Toggle>
+        
     );
 };

@@ -16,7 +16,7 @@ export const MorningBoosters = () => {
     }, []);
 
     return (
-        <Toggle title={'MORNING BOOSTERS'}>
+        
             <>
                 <section className='morning-boosters'>
                     {morningBoostersSweet && morningBoostersSweet.map((item, index) => (
@@ -88,6 +88,6 @@ export const MorningBoosters = () => {
                     </div>
                 </section>
             </>
-        </Toggle>
+        
     );
 };

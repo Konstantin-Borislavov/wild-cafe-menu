@@ -10,7 +10,7 @@ export const GutInstinct = () => {
     }, []);
 
     return (
-        <Toggle title={'GUT INSTINCT'}>
+       
             <section className='gut-instinct'>
                 {gutInstinct && gutInstinct.map((item, index) => (
                     <div className='food' key={index}>
@@ -43,6 +43,6 @@ export const GutInstinct = () => {
 
                 </div>
             </section>
-        </Toggle>
+        
     );
 };
