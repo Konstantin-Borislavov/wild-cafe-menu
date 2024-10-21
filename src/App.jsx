@@ -6,6 +6,7 @@ import { GutInstinct } from './components/GutInstinct'
 import { LifeInTechnicolour } from './components/LifeInTechnicolour'
 import { Diversity } from './components/Diversity'
 import { Desserts } from './components/Desserts'
+import { Toggle } from './components/Toggle'
 
 
 function App() {
@@ -44,16 +45,34 @@ function App() {
 
           <br></br>
 
-          <MorningBoosters />
-          <SharetoCare />
-          <GutInstinct />
-          <LifeInTechnicolour />
-          <Diversity />
-          <Desserts />
+          <Toggle title={'MORNING BOOSTERS'}>
+            <MorningBoosters />
+          </Toggle>
+          
+          <Toggle title={'SHARE TO CARE'}>
+            <SharetoCare />
+          </Toggle>
+       
+          <Toggle title={'GUT INSTINCT'}>
+            <GutInstinct />
+          </Toggle>
+
+         <Toggle title={'LIFE IN TECHNICOLOUR'}>
+            <LifeInTechnicolour /> 
+          </Toggle> 
+         
+          <Toggle title={'DIVERSITY'}>
+            <Diversity /> 
+          </Toggle>
+          
+          <Toggle title={'HAPPINESS'}>
+            <Desserts />  
+          </Toggle>
+          
         </div>
       </div>
     </>
   )
-}
+} 
 
 export default App

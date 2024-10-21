@@ -10,7 +10,7 @@ export const SharetoCare = () => {
     }, []);
 
     return (
-        <Toggle title={'SHARE TO CARE'}>
+        
             <section className='share-to-care'>
                 {shareToCare && shareToCare.map((item, index) => (
                     <div className='food' key={index}>
@@ -26,6 +26,6 @@ export const SharetoCare = () => {
                     </div>
                 ))}
             </section>
-        </Toggle>
+       
     );
 };
